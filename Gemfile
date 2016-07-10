@@ -12,6 +12,11 @@ gem 'omniauth-facebook'
 gem 'bootstrap-will_paginate', '~> 0.0.10'
 gem 'will_paginate', '~> 3.1'
 
+#Google Maps API
+gem 'gmaps4rails'
+gem 'underscore-rails'
+gem 'geocoder'
+
 # handles regex
 gem 'rfc-822'
 # See https://github.com/rails/execjs#readme for more supported runtimes
