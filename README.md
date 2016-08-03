@@ -13,7 +13,7 @@
 3. Under your repository name, click Clone or download.
 4. In the Clone with HTTPs section, click  to copy the clone URL for the repository.
 5. Open Terminal.
-6. Type git clone, and then paste the URL you copied in Step 3. It will look like this, with your GitHub username instead of YOUR-USERNAME: 
+6. Type git clone, and then paste the URL you copied in Step 3. It will look like this, with your GitHub username instead of YOUR-USERNAME:
 
 ```
   $ git clone https://github.com/YOUR-USERNAME/tracker
@@ -31,6 +31,13 @@ Run the application:
 ```
   $ rails server
 ```
+
+Migrate the database:
+
+```
+  $ bundle exec rake db:migrate
+```
+
 ## Add A Feature
 1.Make your changes.
 

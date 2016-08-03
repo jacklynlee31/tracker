@@ -13,13 +13,9 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*
+/tmp/*
 !/log/.keep
-/tmp
+!/tmp/.keep
 
-# Ignore database
-/config/database.yml
-database.yml
-
-# Ignore Facebook Login Omniauth
-/config/initializers/omniauth.rb
-omniauth.rb
+# Ignore Byebug command history file.
+.byebug_history
